@@ -1,0 +1,26 @@
+:root {
+    --background-color: #F3F3F2;
+    --card-color: white;
+    --btn-color: #2F3030;
+    --text-color: #939794;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    background-color: var(--card-color);
+    min-width: 650px;
+    padding: 2% 2% 2% 2%;
+}
